@@ -1,0 +1,179 @@
+.bgimg
+{
+    background-image: url("https://images.pexels.com/photos/51415/pexels-photo-51415.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 650px;
+}
+.hearderset
+{
+    padding-top: 150px ;
+    font-optical-sizing: border-box;
+    color:whitesmoke;
+}
+.hearderset h2
+{
+    font-size: 50px;
+}
+.hearderset h1
+{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.ourservices
+{
+    padding: 60px 0px 50px;
+    height: 600px;
+}
+.ourservices h1
+{
+    font-size: 50px;
+    font-weight: bold;
+}
+.rowsetting
+{
+    margin: 50px 0px !important;
+}
+.rowsetting h2
+{
+    margin-top: 10px;
+    font-size:30px ;
+    font-weight: bold;
+}
+.rowsetting p{
+    color: slategray;
+    padding: 10px;
+}
+.imgsetting
+{
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+}
+.fa-shopping-cart
+{
+    margin-top: 25px;
+}
+.fa-desktop
+{
+    margin-top: 20px;
+}
+.fa-lock
+{
+    margin-top: 20px;
+}
+
+.portfolio
+{
+    padding: 100px 0px 0px;
+}
+.col-sm-3
+{
+    padding: 50px;
+}
+.card
+{
+    padding: 5px;
+}
+
+.ourteam
+{
+    padding: 50px 0px 100px;
+    
+}
+.ourteam h1
+{
+    font-size: 50px;
+    font-weight: bold;
+}
+.teamsetting
+{
+    margin-top: 50px;
+}
+
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
+.contact4 {
+  font-family: "Montserrat", sans-serif;
+	color: #8d97ad;
+  font-weight: 300;
+}
+
+.contact4 h1, .contact4 h2, .contact4 h3, .contact4 h4, .contact4 h5, .contact4 h6 {
+  color: #3e4555;
+}
+
+.contact4 .font-weight-medium {
+	font-weight: 500;
+}
+
+.contact4 .form-control {
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.contact4 .form-control:focus {
+  border-color: #2891e7;
+}
+
+.contact4 input::-webkit-input-placeholder,
+.contact4 textarea::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.contact4 input:-ms-input-placeholder,
+.contact4 textarea:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.contact4 input::placeholder,
+.contact4 textarea::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.contact4 .right-image {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+
+.contact4.bg-info {
+    background-color: lightslategrey !important;
+}
+
+.contact4 .text-inverse {
+    color: #3e4555 !important;
+}
+
+@media (min-width: 1024px) {
+	.contact4 .contact-box {
+    padding: 80px 105px 80px 0px;
+	}
+}
+
+@media (max-width: 767px) {
+	.contact4 .contact-box {
+    padding-left: 15px;
+    padding-right: 15px;
+	}
+}
+
+@media (max-width: 1023px) {
+	.contact4 .right-image {
+			position: relative;
+			bottom: -95px;
+	}
+}
+
+.footer
+{
+    height: 50px;
+}
+.footer h6
+{
+    line-height: 50px;
+
+}
